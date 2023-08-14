@@ -26,7 +26,7 @@ window.addEventListener("load", function() {
           alert(`All fields are required`);
       }
       //check that fuelLevel and cargoLevel are numbers and pilot and co-pilot are strings
-      else if (validateInput(fuelLevelInput.value) === 'Not a Number' || validateInput(cargoMassInput.value) === 'Not a Number') {
+      else if (givalidateInput(fuelLevelInput.value) === 'Not a Number' || validateInput(cargoMassInput.value) === 'Not a Number') {
           alert(`Please enter numerical values for Fuel Level and Cargo Mass`);
       } else if (validateInput(pilotNameInput.value)===`Is a Number`||validateInput(copilotNameInput.value)===`Is a Number`) {
           alert('Please do not enter numbers for name of pilot or co-pilot');
